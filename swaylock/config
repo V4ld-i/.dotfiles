@@ -1,0 +1,76 @@
+#  ____                     _            _     
+# / ___|_      ____ _ _   _| | ___   ___| | __ 
+# \___ \ \ /\ / / _` | | | | |/ _ \ / __| |/ / 
+#  ___) \ V  V / (_| | |_| | | (_) | (__|   <  
+# |____/ \_/\_/ \__,_|\__, |_|\___/ \___|_|\_\ 
+#                     |___/                    
+#   
+# ----------------------------------------------------- 
+
+ignore-empty-password
+font="Fira Sans Semibold"
+
+clock
+timestr=%R
+datestr=%a, %e de %B
+
+image=~/Imagenes/LucyMoonCyberPunk.png
+
+# Add an image as a background 
+# image=~/.cache/current_wallpaper.jpg
+
+# Fade in time
+fade-in=1
+
+# Effect for background
+effect-blur=5x4
+# effect-greyscale
+# effect-pixelate=5
+
+# Show/Hide indicator circle
+indicator
+
+# smaller indicator
+# indicator-radius=200
+
+# bigger indicator
+indicator-radius=300
+
+indicator-thickness=20
+indicator-caps-lock
+
+# Define all colors
+
+key-hl-color=00000066
+separator-color=00000000
+
+inside-color=ffffff33
+inside-clear-color=ffffff00
+inside-caps-lock-color=ffffff00
+inside-ver-color=90bcd400
+inside-wrong-color=ffffff00
+
+ring-color=5d596e
+ring-clear-color=ffffff
+ring-caps-lock-color=ffffff
+ring-ver-color=90bcd4
+ring-wrong-color=d4a654
+
+line-color=00000000
+line-clear-color=ffffffFF
+line-caps-lock-color=ffffffFF
+line-ver-color=90bcd4FF
+line-wrong-color=d4a654FF
+
+text-color=d2d2e1
+text-clear-color=ffffff
+text-ver-color=90bcd4
+text-wrong-color=d4a654
+
+bs-hl-color=ffffff
+caps-lock-key-hl-color=ffffffFF
+caps-lock-bs-hl-color=ffffffFF
+disable-caps-lock-text
+text-caps-lock-color=ffffff
+
+
