@@ -1,12 +1,13 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    font-family: "IosevkaTermSlab";
     font-size: 13px;
+    font-weight: bold;
+    border-radius: 20px;
 }
 
 window#waybar {
-    background-color: rgba(43, 48, 59, 0.5);
-    border-bottom: 3px solid rgba(100, 114, 125, 0.5);
+    background-color: transparent;
     color: #ffffff;
     transition-property: background-color;
     transition-duration: .5s;
@@ -36,40 +37,38 @@ window#waybar.chromium {
 
 button {
     /* Use box-shadow instead of border so the text isn't offset */
-    box-shadow: inset 0 -3px transparent;
+    box-shadow: inset 0 0px transparent;
     /* Avoid rounded borders under each button name */
     border: none;
     border-radius: 0;
 }
 
-/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
-button:hover {
-    background: inherit;
-    box-shadow: inset 0 -3px #ffffff;
+#workspaces button {
+    padding: 0 5 0 8px;
+    background-color: transparent;
+    color: #6E574A;
 }
 
-#workspaces button {
-    padding: 0 5px;
-    background-color: transparent;
-    color: #ffffff;
+#workspaces button.active {
+    color: #D09046;
+    background-color: #6D5346;
+    padding: 0 5 0 8px;
+    border-radius: 20px;
 }
 
 #workspaces button:hover {
-    background: rgba(0, 0, 0, 0.2);
+    color: #D09046;
+    background: #384333;
+    padding: 0 5 0 8px;
+    border-radius: 20px;
 }
 
 #workspaces button.focused {
-    background-color: #64727D;
-    box-shadow: inset 0 -3px #ffffff;
+    background-color: #D29D51;
 }
 
 #workspaces button.urgent {
     background-color: #eb4d4b;
-}
-
-#mode {
-    background-color: #64727D;
-    border-bottom: 3px solid #ffffff;
 }
 
 #clock,
@@ -88,8 +87,9 @@ button:hover {
 #idle_inhibitor,
 #scratchpad,
 #mpd {
-    padding: 0 10px;
+    padding: 0 13px;
     color: #ffffff;
+    margin: 0 5px
 }
 
 #window,
@@ -108,7 +108,7 @@ button:hover {
 }
 
 #clock {
-    background-color: #64727D;
+    background-color: #2E6988;
 }
 
 #battery {
@@ -160,20 +160,19 @@ label:focus {
 }
 
 #network {
-    background-color: #2980b9;
+    background-color: #2E6988;
 }
 
 #network.disconnected {
-    background-color: #f53c3c;
+    background-color: #D29D51;
 }
 
 #pulseaudio {
-    background-color: #f1c40f;
-    color: #000000;
+    background-color: #2E6988;
 }
 
 #pulseaudio.muted {
-    background-color: #90b1b1;
+    background-color: #D29D51;
     color: #2a5c45;
 }
 

@@ -8,13 +8,15 @@
 # ----------------------------------------------------- 
 
 ignore-empty-password
-font="Fira Sans Semibold"
+font="IosevkaTermNerdFontMono-Bold"
 
+# Esto dejo de funcionar
 clock
 timestr=%R
 datestr=%a, %e de %B
 
-image=~/Imagenes/LucyMoonCyberPunk.png
+# screenshots
+image=~/Imagenes/Wallpapers/Wallpaper/FlowerSkull.png
 
 # Add an image as a background 
 # image=~/.cache/current_wallpaper.jpg
