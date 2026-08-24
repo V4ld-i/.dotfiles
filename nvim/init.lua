@@ -12,5 +12,7 @@
 --  ------------------------------------
 -- Set up lazy.nvim
 
+vim.g.mapleader = " "
+
 require("options")
 require("plugins")
